@@ -1,0 +1,10 @@
+<%- include('partials/nav') %>
+
+<h4>Nasa Page!</h4>
+<form action="/nasaQuery" method="POST">
+    <input type="date" name="date" required>
+    <button class="btn waves-effect waves-light" type="submit">Get Image</button>
+</form>
+
+
+<%- include('partials/footer') %>

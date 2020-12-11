@@ -1,0 +1,10 @@
+<%- include('partials/nav') %>
+
+<h4>Weather Page!</h4>
+<form action="/weatherQuery" method="POST">
+    <input type="text" name="city" placeholder="Enter a city...">
+    <input type="text" name="country" placeholder="Enter a country...">
+    <button class="btn waves-effect waves-light" type="submit">Search</button>
+</form>
+
+<%- include('partials/footer') %>
